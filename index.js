@@ -1,5 +1,5 @@
 // index.js — ИСПРАВЛЕНО
-const extensionName = 'character-infoblock-pro'; // ← ВАЖНО!
+const extensionName = 'silly-extension-pro'; // ← ВАЖНО!
 let relations = {};
 let charName = '';
 let userName = 'Ты';
@@ -130,3 +130,4 @@ $(document).ready(() => {
   eventSource.on('characterChanged', loadRelations);
   loadRelations();
 });
+
